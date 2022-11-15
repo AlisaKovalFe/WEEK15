@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: inline-flex;
+            flex-direction: column;
+        }
+
+        button {
+            width: 8rem;
+            height: 2rem;
+            margin-top: 5rem;
+            
+        }
+    </style>
+</head>
+
+
+<body id="result">
+    <h1>This is my website</h1>
+    <div class="container">
+        <select name="colorBack" id="colorBack" onchange="colorBackChange()">
+            <option value="red" selected>Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="pink">Pink</option>
+        </select>
+
+        <button id="button" onmouseover="colorButton()" onmouseleave="colorButtonNew()" >Нажми</button>
+    </div>
+    
+    <script src="task3.js"></script>
+</body>
+</html>
