@@ -8,11 +8,14 @@ function colorBackChange() {
     }
 
 
-
+// experiment
     // if (document.getElementById('colorBack').value == 'red') {
     //     document.getElementById('result').style.backgroundColor = 'red'
     // }
 }
+
+
+//  experiments
 
 function colorButton() {
     document.getElementById('button').style.backgroundColor = 'red'
@@ -47,3 +50,18 @@ function newColorAlert() {
     button.addEventListener('click', borderColor)
 }
 newColorAlert() 
+
+
+
+//  experiments
+// function exp() {
+//     let option = document.querySelectorAll('input')[2]
+    
+//     function newFunc() {
+//         let body = document.querySelector('body')
+//         body.style.backgroundColor = 'red'
+//         // option.style.backgroundColor = 'grey'
+//     }
+//     option.addEventListener('click', newFunc)
+// }
+// exp()
