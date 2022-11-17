@@ -42,7 +42,17 @@
 }
 </script> -->
 
-<script src="index.js"></script>
+<!-- <script src="index.js"></script> -->
+
+<input type="button" value="Нажми меня" id="elem"><script>
+  let button = document.getElementById("elem");
+
+  button.onclick = function(event) {
+    // вывести тип события, элемент и координаты клика
+    alert(event.type + " на " + event.currentTarget);
+    alert("Координаты: " + event.clientX + ":" + event.clientY);
+  };
+</script>
 
 </body>
 </html>
