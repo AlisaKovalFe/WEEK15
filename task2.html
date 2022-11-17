@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            /* .labels,
+            .inputs {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .labels {
+                margin-right: 5rem;
+            }
+
+            label {
+                margin-bottom: 1.25rem;
+            }
+            input {
+                margin-bottom: 1rem;                
+            }
+            
+            .wrap-form {
+                display: flex;
+                justify-content: center;
+            }*/
+
+            .wrap {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+
+            .wrap-color {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 35rem;
+                height:max-content;
+                margin-top: 5rem;
+                background-color:antiquewhite;
+                border-radius: 1rem;
+            }
+
+            h1 {
+                margin: 1rem 0 3rem;
+            } 
+
+            label {
+                display: flex;
+                width: 15rem;
+                margin: 0;
+            }
+
+            .wrap-item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 1rem;
+            }
+
+            input {
+                font-size: 0.8rem;
+            }
+
+            .button {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                width: 13rem;
+                height: 2.5rem;
+                border-radius: 2rem;
+                font-size: 1.1rem;
+                border: none;
+                background-color:rgb(215, 186, 230);
+            }
+
+            button:hover {
+                background-color:rgb(195, 119, 233);
+            }
+
+            #errorMessage {
+                color: red;
+            }
+
+
+        </style>
+</head>
+
+
+<body>
+    <div class="wrap">
+        <div class="wrap-color">
+            <h1>Форма регистрации</h1>
+            <div class="wrap-item">
+                <label for="name">Имя</label>
+                <input id="name"  type="text" placeholder="Имя">
+            </div>
+
+            <div class="wrap-item">
+                <label for="surname">Фамилия</label>
+                <input id="surname" type="text" placeholder="Фамилия">
+            </div>
+
+            <div class="wrap-item">
+                <label for="town">Город</label>
+                <input id="town" type="text" placeholder="Город">
+            </div>
+
+            <div class="wrap-item">
+                <label for="e-mail">Эл. почта</label>
+                <input id="e-mail" type="email" placeholder="email@gmail.com">
+            </div>
+
+            <div class="wrap-item">
+                <label for="password">Пароль</label>
+                <input id="password" type="password" placeholder="Пароль">
+            </div>
+
+            <div class="wrap-item">
+                <label for="repeatPassword">Повторите</label>
+                <input id="repeatPassword" type="password" placeholder="Повторите">
+            </div>
+
+            <div id="errorMessage"></div>
+            <button type="submit" onclick="check()" class="button">Зарегистрироваться</button>
+        </div>
+        <!-- <div class="wrap-form">
+            <div class="labels">
+                <label for="">Имя</label>
+                <label for="">Фамилия</label>
+                <label for="">Город</label>
+                <label for="">Эл. почта</label>
+                <label for="">Пароль</label>
+                <label for="">Повторите</label>
+                <label for="">Введите число с картинки</label>
+            </div>
+
+            <div class="inputs"> 
+                <input type="text" name="" id="" placeholder="Имя">
+                <input type="text" name="" id="" placeholder="Фамилия">
+                <input type="text" name="" id="" placeholder="Город">
+                <input type="text" name="" id="" placeholder="Эл. почта">
+                <input type="text" name="" id="" placeholder="Пароль">
+                <input type="text" name="" id="" placeholder="Повторите">
+                <input type="text" name="" id="" placeholder="Введите">    
+            </div>
+        </div> -->
+    </div>
+
+    <script src="task2.js"></script>
+</body>
+</html>
