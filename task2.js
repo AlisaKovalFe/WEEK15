@@ -22,10 +22,6 @@ function check() {
     if(email.value == '') {
         document.getElementById('errorMessage').innerHTML +='Не заполнен e-mail<br>'
     }
-    
-    if(email.value !== '@') {
-        document.getElementById('errorMessage').innerHTML +='Это не e-mail<br>'
-    } 
 
     if(password.value == '') {
         document.getElementById('errorMessage').innerHTML +='Не заполнен пароль<br>'
@@ -43,7 +39,7 @@ function check() {
         document.getElementById('errorMessage').innerHTML +='Проверка пароля не прошла<br>'
     } 
 
-    if (person.value !== '' && surname.value !== '' && town.value !== '' && email.value !== '' && email.value == '@' && password.value !== '' && repeatPassword.value === password.value){
+    if (person.value !== '' && surname.value !== '' && town.value !== '' && email.value !== '' && password.value !== '' && repeatPassword.value === password.value){
         alert(`Привет, ${person.value}`)
     }
 }

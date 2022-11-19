@@ -1,4 +1,3 @@
-//переменные создавала в каждой функции. Если выносила их в глобальные переменные,то почему-то всегда cрабатывал esle. Кот объясни, плиз почему. Пыталась добавиь кнопку очисить, не поняла как
 
 function plus() {
     let firstNumber = document.getElementById('firstNumber').value;
@@ -7,7 +6,7 @@ function plus() {
         let result = (+firstNumber + +secondNumber);
         document.getElementById('result').innerHTML = result;
     } else {
-        let result = 'Не посчитаю, введи число'; //если не ставлю let тоже работает, не понимаю почему, Кот объясни, плиз
+        let result = 'Не посчитаю, введи число'; 
         document.getElementById('result').innerHTML = result;
     }
 }
