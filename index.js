@@ -9,11 +9,11 @@ let time = date.getHours();
 
 // (time < 10) ? alert('Доброе утро!') : alert('Добрый день!');
 
-if ('1') {
-    alert('Hi')
-} else {
-    alert('bye')
-}
+// if ('1') {
+//     alert('Hi')
+// } else {
+//     alert('bye')
+// }
 
 // x = 6
 // y = 3
@@ -30,3 +30,7 @@ if ('1') {
 // if (!(x == y)) {
 //     alert('yeap')
 // }
+
+// let age
+// console.log(age)
+// age = 33
